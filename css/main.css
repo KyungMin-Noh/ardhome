@@ -1,0 +1,23 @@
+#wrap{width: 1920px; background: #fafafa; }
+#header{position: relative; width: 100%;  }
+#contents{width: 100%; height: 200px;}
+#footer{ width: 100%; height: 160px; }
+
+.container{width: 1280px; margin: 0 auto;}
+
+/* .header{ width: 1920px; text-align: center;  margin: 0 auto;} */
+.copy{ display: block; position: absolute; z-index: 1; top: 90px; left: 380px; text-align: center;}
+.copy img{ text-align:center ;}
+.bg{position: relative; height: 600px; margin: 0 auto; background: url('../images/intro/bg.png') no-repeat;}
+
+.intro_menu{position: absolute; z-index: 1;  margin-top: -190px; height: 380px; }
+.intro_menu a{display: block; }
+.intro_menu a img{display: block;  width: 620px; height: 380px;}
+.intro1{float: left; padding-right: 40px;}
+.intro2{float: right;}
+
+.footer_info{width: 900px; height: 60px; padding-top: 60px; margin: 0 auto;}
+.footer_info .f_logo{float:left;}
+.footer_info .f_logo img{float:left; padding-right: 20px;}
+.footer_info .f_copy{float:left; padding-left: 40px;}
+

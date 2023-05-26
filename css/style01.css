@@ -1,0 +1,99 @@
+#wrap{width: 1920px;  margin: 0 auto;}
+#header{width: 100%; height: 90px;}
+#content1{width: 100%; height: 528px; background: url('../images/hl/visual_hl.png') no-repeat;}
+#content2{height: 368px; background: #d7eaf9; }
+#content3{height: 210px;}
+#content4{height: 120px; border-top: 1px solid #e1e1e1;}
+#footer_nav{height: 50px; background: #f6f6f6; border-top: 1px solid #e1e1e1; background: #efefef;}
+#footer_info{height: 150px; border-top: 1px solid #e1e1e1; background-color: #fafafa; }
+
+.container{width: 1280px; margin: 0 auto; }
+
+.nav{width: 100%; }
+.nav a{display: block; float: left; padding-top: 10px;}
+.nav a img{width: 208px; height: 67px; }
+.nav ul{float: right; padding-left: 120px; }
+.nav ul li{float: left; padding-right: 100px; line-height: 90px; font-size: 20px; font-weight: bold;}
+
+/* content1 */
+.tit {display: block; text-align: center; margin: 0 auto; padding-top: 60px; line-height: 30px;}
+.tit > p{font-size: 36px; font-weight: bold; color: #fff;}
+.tit > p >b:nth-child(1){color: #83ce01; font-size: 40px;}
+.tit > p >b:nth-child(2){color: #00c6c5; font-size: 40px;}
+.tit > span{font-size: 20px; color: #fff;}
+.boxes{float: left; height: 290px; margin-top: 40px;  }
+.boxes >div {border-radius: 16px;}
+.boxes ul{text-align: center; padding: 40px; }
+.boxes ul li{display:block; }
+.boxes ul li.copy{font-size: 30px; font-weight: bold; color: #fff; padding-top: 30px;}
+
+.boxes .booking{float:left; margin-right: 20px; width: 320px; height: 290px; background: #0066c8; }
+.boxes .request{float:left; width: 320px; height: 290px; background: #00c6c5;}
+
+.search{display: block; float: right; margin-top: 40px;  width: 600px; height: 290px; background: #e3e4e6;border-radius: 16px;}
+.search ul > li{float:left; }
+.search ul > li > a{ display: block;}
+.search ul > li > img{position: absolute;}
+
+.search ul > li.copy{text-align: left; vertical-align: middle; padding-left: 60px; padding-top: 80px;}
+.search ul > li.copy p{font-size: 30px; font-weight: bold;  color: #333;}
+.search ul > li.copy >button{margin-top:20px; width: 156px; height: 34px; border-radius: 50px; background: #333; color: #fff;}
+.search ul > li.copy >button a span{float: left; padding-left: 20px; color: #fff;}
+
+
+/* content2 */
+.boxes .example{float:left; margin-right: 20px; width: 320px; height: 290px; background: #83ce01; }
+.boxes .process{float:left; width: 320px; height: 290px; background: #767b8e;}
+.notice {display: block; float: right; margin-top: 40px;  width: 600px; height: 290px; background: #fff; border-radius: 16px;}
+.notice ul{ margin:0 auto;}
+
+.notice .tab{padding-top: 40px; width: 520px; height: 50px; border-bottom: 1px solid #999;}
+.notice .tab li{display: inline-block;  }
+.notice .tab li p{font-size: 20px; font-weight: bold; line-height: 50px; color: #333;}
+.notice .tab .tab1{float: left; padding-right: 40px;}
+.notice .tab .tab2{float: left;}
+.notice .tab .btn{float: right;  } 
+.notice .tab .btn a{display: block; line-height: 50px;}
+.notice .tab .btn img{width: 16px; height: 16px; }
+
+.notice .notice_list{padding-top: 20px; width: 520px; line-height: 30px; }
+.notice .notice_list li{float: left; width: 520px;}
+.notice .notice_list li span{float: right; }
+
+
+/* content3 */
+.service{padding-top: 50px; display: inline-block;}
+.service p{float: left; font-size: 24px; padding-right: 80px;}
+.service p strong{font-size: 30px;}
+
+.service .service_link{float: left; padding-right: 80px; text-align: center;}
+.service .service_link ul{display: inline-block; width: 124px; height: 100px; padding-right: 50px; font-size: 20px;}
+.service .service_link ul:last-child{padding-right: 0px;}
+.service .service_link ul li.copy{padding-top: 16px;}
+
+.service .call{float: right; right: 0; width: 220px; height: 80px; padding: 20px; border: 1px solid #e1e1e1;}
+.service .call > li{float: left; font-size: 18px; line-height: 30px; height: 40px; }
+.service .call > li{display: block;}
+.service .call > li img{float: left;}
+.service .call > li span{float: right; line-height: 40px; padding-left: 20px;}
+
+
+
+/* content4 */
+.site_link{padding-top: 30px; width: 1200px; height: 60px; margin: 0 auto;  }
+.site_link li {float:left; padding-right: 20px;}
+
+
+/* footer */
+.footer_nav{ height: 50px; }
+.footer_nav > a{float: left; line-height: 50px; padding-right: 40px;}
+.footer_nav .site{float: right; width: 290px; height: 50px;}
+.footer_nav .site li.link{float: left; width: 240px; line-height: 50px; background: #e1e1e1;}
+.footer_nav .site li.link span{float: left; padding-left: 20px;}
+.footer_nav .site li.link a{float: right; padding-right: 20px;}
+.footer_nav .site li.btn{float: right; }
+.footer_nav .site li.btn a{display: block; width: 50px; height: 50px;}
+.footer_nav .site li.btn a img{width: 50px; height: 50px;}
+.footer_info{display: inline-block; padding-top: 40px; height: 150px;}
+.footer_info .f_logo{float: left;}
+.footer_info .copy{float: left; padding:0 60px; line-height: 24px;}
